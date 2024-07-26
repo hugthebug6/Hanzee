@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply px-6 py-3 rounded-full font-lg text-white text-[1.2rem] drop-shadow-lg flex items-center justify-center bg-dark-blue;
+    }
+
+    .btn-1 {
+        @apply px-2 py-1 rounded font-lg text-white text-[1.2rem] drop-shadow-lg flex items-center justify-center bg-dark-blue;
+    }
+
+    .input {
+        @apply border-[2px] rounded-2xl p-2 border-light-gray outline-none;
+    }
+
+
+    .form {
+        @apply flex flex-col w-full h-full gap-3 ;
+    }
+
+    .label {
+        @apply text-[1.2rem] font-xl capitalize;
+    }
+
+    .h2 {
+        @apply text-[1.5rem] font-lg uppercase;
+    }
+}
